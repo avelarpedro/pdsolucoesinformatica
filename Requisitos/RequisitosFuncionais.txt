@@ -1,0 +1,77 @@
+RF001] <CadastrarUsuario >
+O usuário deverá criar um cadastro na plataforma, para ter acesso ao sistema. Terá um nome de usuário, login, senha e um perfil na plataforma. 
+Ator: PrestadorServiços, RecebedorServiços
+Prioridade:
+
+Essencial
+
+Interface(s) associada(s): <inclua aqui o(s) identificador(es) da(s) respectiva(s) interface(s) utilizadas na execução deste caso de uso (descrita(s) na Seção 4).>
+Entradas e pré condições: Acessar o endereço web do site Trampo Fácil. 
+Saídas e pós condições: Ter o cadastro com seus dados, armazenados em um banco de dados.
+Fluxo de eventos principal
+< Usuário acessa o site Trampo Fácil -> visualiza a tela principal -> clica na opção Cadastrar Usuário -> visualiza formulário com campos a serem preenchidos
+ Fluxos secundários (alternativos e/ou de exceção)
+<
+
+
+
+[RF002] <LoginUsuario >
+O usuário deve entrar com seus dados de Login e Senha, caso já tenha cadastro, para ter acesso ao sistema.
+Atores: PrestadorServiços, RecebedorServiços
+Prioridade:
+
+Essencial
+
+Interface(s) associada(s): <inclua aqui o(s) identificador(es) da(s) respectiva(s) interface(s) utilizadas na execução deste caso de uso (descrita(s) na Seção 4).>
+Entradas e pré condições: Acessar o endereço web do site Trampo Fácil.
+Saídas e pós condições: Já ser cadastrado no sistema.
+Fluxo de eventos principal
+< Usuário acessa o site Trampo Fácil -> clica em Fazer Login -> digita seu login e senha nos campos a serem preenchidos -> clica Enter
+ Fluxos secundários (alternativos e/ou de exceção)
+< 
+
+[RF003] Alterar Usuario
+O usuário poderá alterar seus dados de usuário em seu  perfil na plataforma. 
+Atores: PrestadorServiços, RecebedorServiços
+Prioridade:
+
+Essencial
+
+
+Interface(s) associada(s): <inclua aqui o(s) identificador(es) da(s) respectiva(s) interface(s) utilizadas na execução deste caso de uso (descrita(s) na Seção 4).>
+Entradas e pré condições: Possuir conta no site Trampo Fácil; estar logado no site.
+Saídas e pós condições:Dados atualizados.
+Fluxo de eventos principal
+Usuário faz login no site -> clica no item de menu Alterar Usuario -> visualiza tela com seus dados e com campos editáveis -> faz as alterações -> clica no campo Atualizar.
+< Fluxos secundários (alternativos e/ou de exceção)
+<
+
+[RF004] Visualizar Usuario
+O usuário irá visualizar seus dados de usuário e seu perfil na plataforma.
+Atores: PrestadorServiços, RecebedorServiços
+Prioridade:
+
+Essencial
+
+
+Interface(s) associada(s): <inclua aqui o(s) identificador(es) da(s) respectiva(s) interface(s) utilizadas na execução deste caso de uso (descrita(s) na Seção 4).>
+Entradas e pré condições: Possuir um cadastro no site Trampo Fácil; estar logado no site.
+Saídas e pós condições: Exibição em tela dos dados do usuário em seu perfil.
+Fluxo de eventos principal
+<Usuário faz login no site -> clica no item de menu Visualizar Dados -> aparece uma tela com os dados do perfil de usuário apenas para leitura, sem possibilidade de edição. 
+ Fluxos secundários (alternativos e/ou de exceção)
+< 
+[RF005] Encerrar Conta
+Fornece ao usuário a possibilidade de excluir seus dados e seu acesso à plataforma Trampo Fácil, caso queira deixar de usá-la.
+Atores: PrestadorServiços, RecebedorServiços
+Prioridade:
+
+
+Importante
+
+Interface(s) associada(s): <inclua aqui o(s) identificador(es) da(s) respectiva(s) interface(s) utilizadas na execução deste caso de uso (descrita(s) na Seção 4).>
+Entradas e pré condições: Possuir um cadastro no site Trampo Fácil, estar logado no site.
+Saídas e pós condições: Exclusão do seu login, senha, perfil e demais dados do usuário. 
+Fluxo de eventos principal
+<Usuário loga no site, acessa o item de menu Excluir Usuário -> aparece mensagem “Conta encerrada”. 
+ Fluxos secundários (alternativos e/ou de exceção)

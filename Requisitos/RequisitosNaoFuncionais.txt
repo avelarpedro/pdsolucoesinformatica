@@ -1,0 +1,56 @@
+Usabilidade
+Esta seção descreve os requisitos não funcionais associados à facilidade de uso da interface com o usuário, material de treinamento e documentação do sistema.
+[NF001] Linguagens utilizadas na construção do sistema
+Para implementação da interface gráfica do usuário com o sistema, usou-se a linguagem de script HTML e a linguagem CSS agregada ao HTML para definir a formatação das fontes e cores na tela. Usou-se a linguagem PHP para definir a interface de interação do usuário com o sistema, além da conexão com o banco de dados.  
+Prioridade:
+
+Essencial
+
+
+ [NF 002] Comunicação com o banco de dados 
+Há a comunicação do sistema com o banco de dados SQL, para ter acesso aos dados dos usuários. 
+Prioridade:
+
+
+Confiabilidade
+Esta seção descreve os requisitos não funcionais associados à freqüência, severidade de falhas do sistema e habilidade de recuperação das mesmas, bem como à corretude do sistema. 
+[NF003] Confiabilidade 
+O sistema deve estar disponível 99% do tempo. 
+Prioridade:
+Importante
+
+Desempenho
+Esta seção descreve os requisitos não funcionais associados à eficiência, uso de recursos e tempo de resposta do sistema.
+[NF004] Desempenho do Sistema
+O sistema deve ser eficiente e ter um tempo de resposta razoável.
+Prioridade:
+
+
+Importante
+
+Segurança
+Esta seção descreve os requisitos não funcionais associados à integridade, privacidade e autenticidade dos dados do sistema. 
+[NF005] Segurança Computacional 
+O sistema deve ser seguro em relação a ataques hackers que roubam dados confidenciais dos usuários para fins ilícitos, bem como resistentes a ataques que “derrubam o servidor”. 
+Prioridade:
+
+Essencial
+
+Distribuição
+Esta seção descreve os requisitos não funcionais associados à distribuição da versão executável do sistema.
+[NF006] Distribuição
+Relacionado a versões e atualizações do sistema.
+Prioridade:
+
+
+Desejável
+
+Hardware e software
+Esta seção descreve os requisitos não funcionais associados ao hardware e software usados para desenvolver ou para executar o sistema. 
+[NF007] Portabilidade
+Deve ser capaz de rodar em navegadores populares, como Chrome, Mozilla (dentre outros), independentemente do sistema operacional -  tanto em dispositivos fixos (PCs/notebooks) quanto em dispositivos móveis (tablets e celulares). Assim, abrange um número maior de usuários. 
+Prioridade:
+
+
+Importante
+
