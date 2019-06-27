@@ -1,0 +1,27 @@
+Requisitos de um sistema são as
+descrições do que o sistema deve
+fazer, os serviços que oferece e as
+restrições a seu funcionamento. Eles
+refletem as necessidades dos clientes
+para um determinado sistema”.
+
+
+
+Requisitos de Usuário
+Um usuário (prestador ou recebedor de serviços) deve ser capaz de se cadastrar no sistema.
+Deve ser capaz de fazer login no sistema.
+Deve ser capaz de criar um perfil de Usuario (com um formulário a ser preenchido), consultar seu perfil de usuário, fazer alterações neste perfil, excluir usuário (excluir conta). 
+
+O administrador do Sistema deve ser capaz de consultar usuário, excluir usuário, dar suporte aos usuários.
+
+Requisitos de Sistema 
+O sistema deve proporcionar formulário de cadastro e de login, permitir que o usuário crie um perfil com seus dados, alterá-lo, exclui-lo quando desejar. 
+
+Requisitos de Processo 
+Linguagens HTML/CSS/PHP e o banco de dados SQL. 
+
+Requisitos de ambiente: possível de acessar em qualquer computador ou celular, inclusive por usuários com deficiência visual e/ou intelectual / neurológica. Portabilidade de sistemas operacionais. 
+
+
+
+
