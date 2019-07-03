@@ -1,0 +1,40 @@
+Regras de verificação de análise de requisitos.
+
+1-Elicitação de requisitos
+Através de conversas, entrevistas, workshops e/ou preenchimento de formulários,faz-se um levantamento das necessidades dos usuários do sistema (tanto quem cria perfis como prestadores de serviços quanto recebedores de serviço). Questões como interface gráfica, facilidade de usar mesmo por pessoas leigas/iniciantes em informática, dentre outras.
+
+2- Especificações de requisitos:
+Funcionais e não-funcionais: já mostrados em arquivos anexos.
+
+
+Requisitos de Usuário
+Um usuário (prestador ou recebedor de serviços) deve ser capaz de se cadastrar no sistema.
+Deve ser capaz de fazer login no sistema.
+Deve ser capaz de criar um perfil de Usuario (com um formulário a ser preenchido), consultar seu perfil de usuário, fazer alterações neste perfil, excluir usuário (excluir conta). 
+
+O administrador do Sistema deve ser capaz de consultar usuário, excluir usuário, dar suporte aos usuários.
+
+Requisitos de Sistema 
+O sistema deve proporcionar formulário de cadastro e de login, permitir que o usuário crie um perfil com seus dados, alterá-lo, exclui-lo quando desejar. 
+
+Requisitos de Processo 
+Linguagens HTML/CSS/PHP e o banco de dados SQL. 
+
+Requisitos de ambiente: possível de acessar em qualquer computador ou celular, inclusive por usuários com deficiência visual e/ou intelectual / neurológica. Portabilidade de sistemas operacionais. 
+
+
+3- Validação de Requisitos
+Após a escrita de necessidades do cliente/usuário, os dados serão validados seja através de uma reunião fazendo com que os responsáveis assinem o documento para que ele possa ter validade, ou mostrando os requisitos levantados por e-mail. Essa etapa também serve para correções e podem ser descobertos/inclusos outras funcionalidades que até então não tinham sido listadas.
+
+4- Documentação de Requisitos
+Nela, é feita uma introdução e visão geral do produto, bem como termos técnicos utilizados, abreviações e acrônimos, envolvidos e usuários - além dos tipos de requisitos (funcionais, não-funcionais e regras de negócio), casos de uso, e anexos tais como protótipos, arquitetura e demais documentos auxiliares.)
+
+5- Prototipagem
+Desenvolvimento de um sistema funcional, com base em todo esse levantamento e documentação supracitados. 
+
+6- Testes
+São então feitos testes para que o sistema atenda aos requisitos levantados.
+
+7-Suporte e manutenção - correção de eventuais falhas e bugs do sistema, bem como atendimento aos clientes que necessitem de esclarecimentos adicionais sobre o produto.
+
+
